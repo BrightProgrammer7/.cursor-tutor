@@ -18,6 +18,7 @@ Step 4: To try out cursor on your own projects, go to the file menu (top left) a
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import TicTacToe from './TicTacToe'; // Import the TicTacToe component
+import TodoApp from './TodoApp'; // Import the TodoApp component
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         Hello World
         <button onClick={() => alert('Hello World')}>Click me</button>
         <TicTacToe /> {/* Add the TicTacToe component */}
+        <TodoApp /> {/* Add the TodoApp component */}
       </header>
     </div>
   );
